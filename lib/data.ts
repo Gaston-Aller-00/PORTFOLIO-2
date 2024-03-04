@@ -12,7 +12,7 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
+    name: "Sobre Mi",
     hash: "#about",
   },
   {
@@ -62,24 +62,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Real Estate",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Real Estate Agency where users can reserve and purchase properties. Full stack web.",
+    tags: ["React", "Typescript","Next.js", "MongoDB", "Tailwind", "Prisma","Framer"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Book Store",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Online bookstore enabling users to purchase and upload books directly to the site. Full stack website.",
+    tags: ["React",  "Vite", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "NEXCENT",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Landing page for selling digital services, with a captivating front-end design",
+    tags: ["React",  "Tailwind", "Framer","React-scroll"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -94,14 +94,16 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
+  "Bootstrap",
   "Prisma",
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
+  "MaterialUI",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "Prisma",
+  "MySQL",
+  
   "Framer Motion",
 ] as const;
