@@ -17,33 +17,32 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>Sobre Mi</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        Hola, soy Gastón, desarrollador web Full Stack.Anteriormente exploré
+        diferentes áreas académicas antes de descubrir mi pasión por la
+        programación. Me encanta el mundo de la programación y estoy
+        constantemente buscando oportunidades para crecer y mejorar como
+        profesional. Actualmente estoy enfocado en aprender React Native y
+        cuento con experiencia en react, next, node js, bases de datos sql y
+        mongo, así como comprensión de las API REST, entre otros. Mi actitud
+        positiva, autonomía y habilidades para trabajar en equipo son cualidades
+        que me definen. Además, me considero una persona proactiva, organizada y
+        orientada a resultados. Ya sea trabajando en un sitio web, una
+        aplicación móvil u otro producto digital, me comprometo a ofrecer
+        excelencia en el diseño y un enfoque centrado en el usuario en cada
+        proyecto en el que participo. Estoy emocionado por la oportunidad de
+        contribuir con mis habilidades y pasión a su próximo proyecto.
       </p>
 
-      <p>
+      {/* <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
         video games, watching movies, and playing with my dog. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">history and philosophy</span>. I'm also
         learning how to play the guitar.
-      </p>
+      </p> */}
     </motion.section>
   );
 }
