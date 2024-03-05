@@ -82,6 +82,13 @@ export const projectsData = [
     tags: ["React",  "Tailwind", "Framer","React-scroll"],
     imageUrl: wordanalyticsImg,
   },
+  {
+    title: "K-GYM",
+    description:
+      "A landing page for a local gym, focusing on the front end",
+    tags: ["React", "TypeScript","Next.JS" ,"Tailwind", "Framer","Swiper"],
+    imageUrl: wordanalyticsImg,
+  },
 ] as const;
 
 export const skillsData = [
