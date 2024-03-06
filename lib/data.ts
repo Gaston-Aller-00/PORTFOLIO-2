@@ -110,6 +110,7 @@ export const skillsData = [
   "Express",
   "PostgreSQL",
   "Prisma",
+  "React-Query",
   "MySQL",
   
   "Framer Motion",
