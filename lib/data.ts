@@ -36,28 +36,30 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bootcamp Soy Henry",
+    location: "Argentina, Bs as",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "3 meses de Desarrollo intensivo, Programacion full stack",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Meta Front-End Developer",
+    location: "Coursera",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Curso Front-end de duracion de 6 meses, Orientado a React y Typescript ",
+      icon: React.createElement(LuGraduationCap),
+    // icon: React.createElement(CgWorkAlt),
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Meta Back-End Developer ",
+    location: "Coursera",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Curso Back-end de duracion de 8 meses,Orientado a python, MySQL y API REST ",
+      icon: React.createElement(LuGraduationCap),
+    // icon: React.createElement(FaReact),
+    date: "2024",
   },
 ] as const;
 
@@ -65,32 +67,37 @@ export const projectsData = [
   {
     title: "Real Estate",
     description:
-      "Real Estate Agency where users can reserve and purchase properties. Full stack web.",
+      "Real Estate donde los usuarios pueden reservar propiedades y crear publicaciones para poner su propiedad en venta. Desarrollo web full stack.",
     tags: ["React", "Typescript","Next.js", "MongoDB", "Tailwind", "Prisma","Framer"],
     imageUrl: corpcommentImg,
+    link: "https://real-estate-web-starterpack-lovat.vercel.app"
   },
   {
     title: "Book Store",
     description:
-      "Online bookstore enabling users to purchase and upload books directly to the site. Full stack website.",
+      "Librería en línea que permite a los usuarios comprar y cargar libros directamente en el sitio para venderlos. Desarrollo web full stack.",
     tags: ["React",  "Vite", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
+    link: "https://mern-book-store-s72o.vercel.app"
   },
   {
     title: "NEXCENT",
     description:
-      "Landing page for selling digital services, with a captivating front-end design",
+      "Landing page para vender servicios digitales, con un diseño minimalista y moderno",
     tags: ["React",  "Tailwind", "Framer","React-scroll"],
     imageUrl: wordanalyticsImg,
+    link: "https://modernagency.vercel.app"
   },
   {
     title: "K-GYM",
     description:
-      "A landing page for a local gym, focusing on the front end",
+      "A landing para un gimnasio local, minimalista y moderna.",
     tags: ["React", "TypeScript","Next.JS" ,"Tailwind", "Framer","Swiper"],
     imageUrl: wordanalyticsImg1,
+    link: "https://onepage-gym-next-13.vercel.app"
   },
 ] as const;
+
 
 export const skillsData = [
   "HTML",
