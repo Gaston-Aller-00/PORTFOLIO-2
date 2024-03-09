@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import pic from "./perfilPic.png"
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -31,13 +32,13 @@ export default function Intro() {
             }}
           >
             <Image
-              src=""
+              src={pic}
               alt="pic"
-              width="192"
-              height="192"
+              width="292"
+              height="292"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-28 w-28 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
