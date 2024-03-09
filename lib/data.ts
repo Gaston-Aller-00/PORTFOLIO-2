@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import wordanalyticsImg1 from "@/public/wordanalyticsImg1.png";
 
 export const links = [
   {
@@ -87,7 +88,7 @@ export const projectsData = [
     description:
       "A landing page for a local gym, focusing on the front end",
     tags: ["React", "TypeScript","Next.JS" ,"Tailwind", "Framer","Swiper"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: wordanalyticsImg1,
   },
 ] as const;
 
