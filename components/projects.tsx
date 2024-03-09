@@ -11,12 +11,12 @@ export default function Projects() {
 
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
-      <SectionHeading>Mis projectos</SectionHeading>
+      <SectionHeading>Mis proyectos</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
-          <React.Fragment key={index}>
+          <a key={index} href={project.link} target="_blank" rel="noopener noreferrer">
             <Project {...project} />
-          </React.Fragment>
+          </a>
         ))}
       </div>
     </section>
