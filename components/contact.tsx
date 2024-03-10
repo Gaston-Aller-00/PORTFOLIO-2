@@ -32,14 +32,22 @@ export default function Contact() {
       <SectionHeading>Contactame!</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-     Contáctame directamente a {" "}
-    <a className="underline" href="mailto:gastonallerdev@gmail.com">
-        gastonallerdev@gmail.com
-    </a>{" "}
-    o a través de este formulario.
-</p>
+        Contáctame directamente a{" "}
+        <a className="underline" href="mailto:gastonallerdev@gmail.com">
+          gastonallerdev@gmail.com
+        </a>{" "}
+        o puedes conectarte conmigo a través de {" "}
+        <a
+          className="underline"
+          href="https://www.linkedin.com/in/gastonaller/"
+          about="_blank"
+        >
+          LinkedIn
+        </a>
+        {/* o a través de este formulario. */}
+      </p>
 
-      <form
+      {/* <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
@@ -68,7 +76,7 @@ export default function Contact() {
           maxLength={5000}
         />
         <SubmitBtn />
-      </form>
+      </form> */}
     </motion.section>
   );
 }

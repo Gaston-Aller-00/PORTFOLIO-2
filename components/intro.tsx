@@ -71,7 +71,7 @@ export default function Intro() {
 
         <span className="italic">
           Como desarrollador full-stack, me dedico a convertir ideas en
-          aplicaciones web innovadoras. Explora mis últimos proyectos!
+          aplicaciones web innovadoras.
         </span>
         {/* . My focus is{" "} */}
         {/* <span className="underline">React (Next.js)</span>. */}
@@ -86,12 +86,13 @@ export default function Intro() {
         }}
       >
         <Link
-          href="#contact"
+          href="mailto:gastonallerdev@gmail.com"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-          onClick={() => {
-            setActiveSection("Contact");
-            setTimeOfLastClick(Date.now());
-          }}
+        //   onClick={() => {
+        //     setActiveSection("Contact");
+        //     setTimeOfLastClick(Date.now());
+        //   }
+        // }
         >
           Contáctame aquí{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
