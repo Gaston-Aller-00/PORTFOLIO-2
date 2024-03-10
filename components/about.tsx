@@ -23,16 +23,17 @@ export default function About() {
         diferentes áreas académicas antes de descubrir mi pasión por la
         programación. Me encanta el mundo de la programación y estoy
         constantemente buscando oportunidades para crecer y mejorar como
-        profesional. Actualmente estoy enfocado en aprender React Native y
-        cuento con experiencia en react, next, node js, bases de datos sql y
-        mongo, así como comprensión de las API REST, entre otros. Mi actitud
-        positiva, autonomía y habilidades para trabajar en equipo son cualidades
-        que me definen. Además, me considero una persona proactiva, organizada y
-        orientada a resultados. Ya sea trabajando en un sitio web, una
-        aplicación móvil u otro producto digital, me comprometo a ofrecer
-        excelencia en el diseño y un enfoque centrado en el usuario en cada
-        proyecto en el que participo. Estoy emocionado por la oportunidad de
-        contribuir con mis habilidades y pasión a su próximo proyecto.
+        profesional. Actualmente estoy enfocado en perfeccionar Next.js y cuento
+        con experiencia en react,node js, bases de datos sql y mongo, así como
+        comprensión de las API REST, entre otros.La próxima tecnología que estoy
+        ansioso por aprender es React Native. Mi actitud positiva, autonomía y
+        habilidades para trabajar en equipo son cualidades que me definen.
+        Además, me considero una persona proactiva, organizada y orientada a
+        resultados. Ya sea trabajando en un sitio web, una aplicación móvil u
+        otro producto digital, me comprometo a ofrecer excelencia en el diseño y
+        un enfoque centrado en el usuario en cada proyecto en el que participo.
+        Estoy emocionado por la oportunidad de contribuir con mis habilidades a
+        su próximo proyecto.
       </p>
 
       {/* <p>

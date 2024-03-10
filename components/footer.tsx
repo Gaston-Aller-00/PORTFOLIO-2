@@ -6,11 +6,11 @@ export default function Footer() {
       <small className="mb-2 block text-xs">
         &copy; 2023 Gaston. Todos los derechos reservados.
       </small>
-      <p className="text-xs">
-        <span className="font-semibold">Sobre este sitio web:</span> Construido
+      {/* <p className="text-xs">
+        <span className="font-semibold">Sitio web:</span> Construido
         con React & Next.js (App Router & Server Actions), TypeScript, Tailwind
-        CSS, Framer Motion, React Email & Resend, y alojamiento en Vercel.
-      </p>
+        CSS, Framer Motion, , y deploy en Vercel.
+      </p> */}
     </footer>
   );
 }
