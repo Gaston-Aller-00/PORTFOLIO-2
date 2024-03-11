@@ -86,7 +86,7 @@ export const projectsData = [
       "Framer",
     ],
     imageUrl: corpcommentImg,
-    link: "https://real-estate-web-starterpack-lovat.vercel.app",
+    link: "https://real-estate-333.vercel.app",
   },
   {
     title: "Book Store",
