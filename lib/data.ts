@@ -52,6 +52,15 @@ export const experiencesData = [
     date: "2023",
   },
   {
+    title: "Gestión de proyectos con la  metodología agil",
+    location: "Coursera",
+    description:
+      "Metodoligia agil SCRUM ",
+    icon: React.createElement(LuGraduationCap),
+    // icon: React.createElement(FaReact),
+    date: "2024",
+  },
+  {
     title: "Meta Back-End Developer ",
     location: "Coursera",
     description:
