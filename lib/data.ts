@@ -54,8 +54,7 @@ export const experiencesData = [
   {
     title: "Gestión de proyectos con la  metodología agil",
     location: "Coursera",
-    description:
-      "Metodoligia agil SCRUM ",
+    description: "Metodoligia agil SCRUM ",
     icon: React.createElement(LuGraduationCap),
     // icon: React.createElement(FaReact),
     date: "2024",
@@ -127,13 +126,11 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
+
   "MaterialUI",
   "Express",
   "PostgreSQL",
   "Prisma",
   "React-Query",
-  "MySQL",
-
   "Framer Motion",
 ] as const;
