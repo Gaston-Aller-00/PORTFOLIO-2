@@ -6,6 +6,7 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import wordanalyticsImg1 from "@/public/wordanalyticsImg1.png";
+import FF from "@/public/FF.jpg";
 
 export const links = [
   {
@@ -60,10 +61,10 @@ export const experiencesData = [
     date: "2024",
   },
   {
-    title: "Meta Back-End Developer ",
+    title: "IBM Back-end JavaScript Developer ",
     location: "Coursera",
     description:
-      "Curso Back-end de duracion de 8 meses,Orientado a python, MySQL y API REST ",
+      "Curso Back-end de duracion de 6 meses,Orientado NodeJS, Express,Devops,MongoDB ",
     icon: React.createElement(LuGraduationCap),
     // icon: React.createElement(FaReact),
     date: "2024",
@@ -109,6 +110,13 @@ export const projectsData = [
     tags: ["React", "Vite", "Tailwind", "Framer", "React-scroll"],
     imageUrl: wordanalyticsImg,
     link: "https://modernagency.vercel.app",
+  },
+  {
+    title: "Final Fanatsy IX",
+    description: "Fan page para el juego Final Fantasy IX en colaboracion de otros usuarios. (En progreso)",
+    tags: ["Next.js", "Typescript", "Tailwind", "Framer", "React-scroll",],
+    imageUrl: FF,
+    link: "https://github.com/Gaston-Aller-00/FINAL-FANTASY-IX",
   },
 ] as const;
 
