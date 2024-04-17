@@ -64,7 +64,6 @@ export const experiencesData = [
     description:
       "Curso Back-end de duracion de 6 meses,Orientado NodeJS, Express,Devops,MongoDB ",
     icon: React.createElement(LuGraduationCap),
-    // icon: React.createElement(FaReact),
     date: "2024",
   },
 ] as const;
