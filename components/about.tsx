@@ -24,7 +24,7 @@ export default function About() {
         programación. Me encanta el mundo de la programación y estoy
         constantemente buscando oportunidades para crecer y mejorar como
         profesional. Actualmente estoy enfocado en perfeccionar Next.js y cuento
-        con experiencia en react,node js, bases de datos sql y mongo, así como
+        con experiencia en react,node js, bases de datos SQL y NoSQL, así como
         comprensión de las API REST, entre otros.La próxima tecnología que estoy
         ansioso por aprender es React Native. Mi actitud positiva, autonomía y
         habilidades para trabajar en equipo son cualidades que me definen.
@@ -36,14 +36,7 @@ export default function About() {
         su próximo proyecto.
       </p>
 
-      {/* <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p> */}
+      
     </motion.section>
   );
 }
