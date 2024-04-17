@@ -49,7 +49,6 @@ export const experiencesData = [
     description:
       "Curso Front-end de duracion de 6 meses, Orientado a React y Typescript ",
     icon: React.createElement(LuGraduationCap),
-    // icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
   {
@@ -57,7 +56,6 @@ export const experiencesData = [
     location: "Coursera",
     description: "Metodoligia agil SCRUM ",
     icon: React.createElement(LuGraduationCap),
-    // icon: React.createElement(FaReact),
     date: "2024",
   },
   {
@@ -113,8 +111,9 @@ export const projectsData = [
   },
   {
     title: "Final Fanatsy IX",
-    description: "Fan page para el juego Final Fantasy IX en colaboracion de otros usuarios. (En progreso)",
-    tags: ["Next.js", "Typescript", "Tailwind", "Framer", "React-scroll",],
+    description:
+      "Fan page para el juego Final Fantasy IX en colaboracion de otros usuarios. (En progreso)",
+    tags: ["Next.js", "Typescript", "Tailwind", "Framer", "React-scroll"],
     imageUrl: FF,
     link: "https://github.com/Gaston-Aller-00/FINAL-FANTASY-IX",
   },
