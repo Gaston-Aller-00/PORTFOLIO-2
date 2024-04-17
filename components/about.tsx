@@ -24,7 +24,7 @@ export default function About() {
         programación. Me encanta el mundo de la programación y estoy
         constantemente buscando oportunidades para crecer y mejorar como
         profesional. Actualmente estoy enfocado en perfeccionar Next.js y cuento
-        con experiencia en react,node js, bases de datos SQL y NoSQL, así como
+        con experiencia en React,Node js, bases de datos SQL y NoSQL, así como
         comprensión de las API REST, entre otros.La próxima tecnología que estoy
         ansioso por aprender es React Native. Mi actitud positiva, autonomía y
         habilidades para trabajar en equipo son cualidades que me definen.
