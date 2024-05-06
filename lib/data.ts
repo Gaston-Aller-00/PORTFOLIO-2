@@ -72,7 +72,7 @@ export const projectsData = [
   {
     title: "Real Estate",
     description:
-      "Real Estate donde los usuarios pueden reservar propiedades y crear publicaciones para poner su propiedad en venta. Desarrollo web full stack.",
+      "Real Estate donde los usuarios pueden reservar propiedades y crear publicaciones para poner su propiedad en venta. Desarrollo web full stack (SPA).",
     tags: [
       "React",
       "Typescript",
@@ -88,7 +88,7 @@ export const projectsData = [
   {
     title: "Book Store",
     description:
-      "Librería en línea que permite a los usuarios comprar y cargar libros directamente en el sitio para venderlos. Desarrollo web full stack.",
+      "Librería en línea que permite a los usuarios comprar y cargar libros directamente en el sitio para venderlos. Desarrollo web full stack (SPA).",
     tags: ["React", "Vite", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
     link: "https://mern-book-store-s72o.vercel.app",
