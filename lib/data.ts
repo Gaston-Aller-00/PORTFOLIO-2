@@ -127,6 +127,7 @@ export const skillsData = [
   "Next.js",
   "Node.js",
   "Git",
+  "Github",
   "Tailwind",
   "Bootstrap",
   "Prisma",
@@ -136,7 +137,6 @@ export const skillsData = [
   "MaterialUI",
   "Express",
   "PostgreSQL",
-  "Prisma",
   "React-Query",
   "Framer Motion",
 ] as const;
